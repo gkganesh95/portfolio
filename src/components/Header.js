@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Header() {
    const [toggleMenu, setToggleMenu] = useState(false);
     return <header className="flex justify-between px-5 py-5 bg-secondary">
-     <a className="font-bold text-white" href="#">GK GANESH</a>
+     <a className="font-bold text-black" href="#">GK GANESH</a>
      <nav className="hidden md:block">
     <ul className="flex text-white">
         <li><a href="/">Home</a></li>
